@@ -61,11 +61,8 @@ Cars.propTypes = {
   yellowCar: PropTypes.bool.isRequired,
 };
 
-const mapStateToProps = (state) => ({
-  redCar: state.cars.red,
-  blueCar: state.cars.blue,
-  yellowCar: state.cars.yellow});
 
-const mapDispatchToProps = { moveCar };
 
-export default connect(mapStateToProps, mapDispatchToProps)(Cars);
+
+
+export default Cars
